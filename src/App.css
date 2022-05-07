@@ -1,0 +1,112 @@
+.app {
+  width: 100%;
+  height: calc(100vh - 100px);
+  padding: 50px 0;
+  background: radial-gradient(#424265 0%, #39394e 75%);
+  color: #fff;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+.container {
+  padding: 40px 20px;
+  background: #474767;
+  border-radius: 24px;
+  width: 670px;
+  box-shadow: 0px 4px 31px 25px rgba(0, 0, 0, 0.03);
+  margin: 0 auto;
+}
+.container-title {
+  text-align: center;
+  margin-top: 0;
+  font-size: 26px;
+}
+.container-message {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  color: red
+}
+.input-container {
+  background: #33334B;
+  border-radius: 16px;
+  padding: 15px 25px
+}
+.input-container__title, .fees-container__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.input-container__message {
+  font-size: 13px;
+  color: red
+}
+.input-wrapper {
+  justify-content: space-between;
+}
+.input-wrapper__field {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  width: 60%;
+}
+.currency-dropdown {
+  gap: 10px;
+  cursor: pointer;
+}
+.currency-dropdown__image {
+  width:40px;
+  border-radius: 50%;
+}
+.currency-dropdown__name {
+  font-size: 27px;
+  font-weight: 700;
+}
+.fees-container {
+  padding-left: 120px;
+  margin: 20px 0;
+}
+.fees-wrapper {
+  gap: 30px;
+  background: #33334B6E;
+  padding: 10px 20px;
+  border-radius: 16px;
+  border: 1px solid #33334B;
+}
+.fees-wrapper__item {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.fees-wrapper__item-name {
+  color: #ffffff9d;
+}
+.fees-wrapper__item-value {
+  font-weight: 700;
+}
+.fees-wrapper__item-symbol {
+  font-size: 50px;
+}
+.form-submit__button {
+  width: 100%;
+  border: none;
+  background: #783AFF;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 15px 0;
+  cursor: pointer;
+}
+.form-submit__button.disabled {
+  cursor:no-drop;
+  background: rgb(126, 126, 126)
+}
+.form-submit__button:hover {
+  background: #646464;
+}
